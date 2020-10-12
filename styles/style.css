@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+/* header styling */
+header {
+  height: 100px;
+  height: 100px;
+  box-shadow: 0 0 4px #b1b1b1;
+  border-bottom: 1px solid #ddd;
+}
+header .header-wrapper{
+    height: 100px;
+}
+header .logo-wrap img {
+  height: 80px;
+}
+
+header .user-info-wrap .top-wrap ul .user-name {
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+header .user-info-wrap .top-wrap ul .logout a {
+  padding: 8px;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+header .user-info-wrap .top-wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .user-info-wrap .bottom-wrap .navbar {
+  padding: 0;
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color:#333;
+}
+
+/* header styling */
+
+.page-wrapper{
+    min-height: calc(100vh - 100px);
+    padding: 20px 0;
+}
+.page-wrapper .page-heading{
+    border-bottom: 1px solid #2297f3;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+.page-wrapper .page-heading h1{
+    font-size: 26px;
+    color: #007bff;
+}
+
+/* change password page */
+.change-password{
+    margin-top: 50px;
+}
+/* change password page */
+
+.dashboard{
+    margin-top:50px;
+}
+.dashboard .card-deck .card-body:hover .image-wrap img{
+    transform: scale(1.1);
+}
+.dashboard .card-deck .image-wrap img{
+    width:50%;
+    transition: 0.4s all;
+}
+.dashboard .card-deck .card-title{
+    margin-top: 30px;
+
+}
+
+.registration-page {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(253, 162, 89, 1) 0%,
+    rgba(0, 199, 254, 1) 100%
+  );
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.page-container {
+  background: #fff;
+  min-height: 20vh;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 90px/300px;
+  padding: 15px 100px;
+}
+
+.page-container h1 {
+  text-align: center;
+  font-size: 27px;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.page-container h1:after {
+  content: "";
+  background: #2196f3;
+  height: 4px;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 35px;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.login-page-wrapper {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(253, 162, 89, 1) 0%, rgba(0, 199, 254, 1) 100%);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.page-container {
+    height: 90vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 46px -17px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-wrap {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(12, 79, 147, 1) 0%, rgba(0, 199, 254, 1) 100%);
+}
+
+.left-wrap .image-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.left-wrap .image-wrap img {
+    height: 50vh;
+}
+
+.left-wrap .text-wrap {
+    margin-left: 120px;
+}
+
+.left-wrap .text-wrap h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.left-wrap .text-wrap h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 46px;
+}
+
+.left-wrap .text-wrap p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.right-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 80px;
+    width: 35%;
+}
+
+.right-wrap .form-wrapper {
+    width: 100%;
+}
+
+.right-wrap .form-wrapper h3 {
+    color: #068ac7;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.right-wrap .form-wrapper .form-group button {
+    border-radius: 25px;
+    height: 40px;
+    background-color: #068ac7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

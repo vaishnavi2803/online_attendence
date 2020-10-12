@@ -1,0 +1,40 @@
+.registration-page {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(253, 162, 89, 1) 0%, rgba(0, 199, 254, 1) 100%);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.page-container {
+    background: #fff;
+    min-height: 20vh;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 90px/300px;
+    padding: 15px 100px;
+}
+
+.page-container h1 {
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.page-container h1:after {
+    content: '';
+    background: #2196F3;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
